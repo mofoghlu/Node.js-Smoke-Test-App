@@ -2,6 +2,10 @@
 
 ## Overview
 
+20120412 Cloned and used to test LDAP Node.js module
+	- doesn't work on mobilecf.feedhenry.com (CSG2), as staging to Public Cloud Foundry reaveals issues
+	- should work on demo2.feedhenry.com (CSG1), as we have fixed dependencies in DynoFarm 
+
 The Smoke Test is an application developed to demonstrate key parts of the FeedHenry server side functionality in Node.js. The app is made up of a number of tabs each of which demonstrates cloud call to some various Node.js functions.
 
 * Config
