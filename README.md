@@ -1,10 +1,16 @@
 # Node.js Smoke Test App
 
-## Overview
+## Personal Notes
 
-20120412 Cloned and used to test LDAP Node.js module
-	- doesn't work on mobilecf.feedhenry.com (CSG2), as staging to Public Cloud Foundry reaveals issues
-	- should work on demo2.feedhenry.com (CSG1), as we have fixed dependencies in DynoFarm 
+20120412 @ 11:53 IST
+
+Cloned FeedHenry public github repo and used to test LDAP Node.js module.
+
+I have confirmed LDAP test doesn't work out of the box on mobilecf.feedhenry.com (CSG2), as staging to Public Cloud Foundry reaveals issues, due to external dependencies, such as ubuntu OpenLDAP and uuid-dev packages.
+
+I think LDAP test should work on demo2.feedhenry.com (CSG1), as we have fixed these dependencies in DynoFarm in our own PaaS.  I will do further testing when I can.
+
+## Overview
 
 The Smoke Test is an application developed to demonstrate key parts of the FeedHenry server side functionality in Node.js. The app is made up of a number of tabs each of which demonstrates cloud call to some various Node.js functions.
 
