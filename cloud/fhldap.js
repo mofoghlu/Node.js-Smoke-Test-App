@@ -25,6 +25,7 @@ exports.ldapMember = function(uid, callback) {
     };
  
     ldap.search(search_options, function(err, memberDetails) {
+      fh.stats.inc('LDAPSEARCH'); // Increments a counter
       if (err) return callback(err);
       callback(err, memberDetails[0]);
     });
