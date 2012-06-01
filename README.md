@@ -2,7 +2,7 @@
 
 ## Personal Notes
 
-20120509 @ 13:35 IST
+20120601 @ 10:38 IST
 
 Cloned FeedHenry public github repo and used to test LDAP Node.js module.
 
